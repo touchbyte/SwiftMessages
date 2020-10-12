@@ -62,7 +62,7 @@
 		86589D911D692B1C0041676C /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86589D901D692B1B0041676C /* TabView.xib */; };
 		867BED211D622793005212E3 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BED201D622793005212E3 /* BackgroundViewable.swift */; };
 		86B48AEF1D5A41C900063E2B /* SwiftMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B48AEE1D5A41C900063E2B /* SwiftMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86B48AF61D5A41C900063E2B /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */; };
+		86B48AF61D5A41C900063E2B /* TBSwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B48AEC1D5A41C900063E2B /* TBSwiftMessages.framework */; };
 		86B48AFB1D5A41C900063E2B /* SwiftMessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B48AFA1D5A41C900063E2B /* SwiftMessagesTests.swift */; };
 		86BBA8F91D5E01FC00FE8F16 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86BBA8F81D5E01FC00FE8F16 /* CardView.xib */; };
 		86BBA8FC1D5E03F100FE8F16 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E21821D4D025200594A41 /* MessageView.swift */; };
@@ -162,7 +162,7 @@
 		86AAF81D1D5549680031EE32 /* MarginAdjustable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarginAdjustable.swift; sourceTree = "<group>"; };
 		86AAF82A1D580DD70031EE32 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		86AAF82C1D580F410031EE32 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B48AEC1D5A41C900063E2B /* TBSwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBSwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B48AEE1D5A41C900063E2B /* SwiftMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMessages.h; sourceTree = "<group>"; };
 		86B48AF01D5A41C900063E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B48AF51D5A41C900063E2B /* SwiftMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,7 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B48AF61D5A41C900063E2B /* SwiftMessages.framework in Frameworks */,
+				86B48AF61D5A41C900063E2B /* TBSwiftMessages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +299,7 @@
 		867E21501D4D01D500594A41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */,
+				86B48AEC1D5A41C900063E2B /* TBSwiftMessages.framework */,
 				86B48AF51D5A41C900063E2B /* SwiftMessagesTests.xctest */,
 			);
 			name = Products;
@@ -367,9 +367,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		86B48AEB1D5A41C900063E2B /* SwiftMessages */ = {
+		86B48AEB1D5A41C900063E2B /* TBSwiftMessages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86B48AFD1D5A41C900063E2B /* Build configuration list for PBXNativeTarget "SwiftMessages" */;
+			buildConfigurationList = 86B48AFD1D5A41C900063E2B /* Build configuration list for PBXNativeTarget "TBSwiftMessages" */;
 			buildPhases = (
 				86B48AE71D5A41C900063E2B /* Sources */,
 				86B48AE81D5A41C900063E2B /* Frameworks */,
@@ -380,9 +380,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftMessages;
+			name = TBSwiftMessages;
 			productName = SwiftMessages;
-			productReference = 86B48AEC1D5A41C900063E2B /* SwiftMessages.framework */;
+			productReference = 86B48AEC1D5A41C900063E2B /* TBSwiftMessages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86B48AF41D5A41C900063E2B /* SwiftMessagesTests */ = {
@@ -437,7 +437,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86B48AEB1D5A41C900063E2B /* SwiftMessages */,
+				86B48AEB1D5A41C900063E2B /* TBSwiftMessages */,
 				86B48AF41D5A41C900063E2B /* SwiftMessagesTests */,
 			);
 		};
@@ -550,7 +550,7 @@
 /* Begin PBXTargetDependency section */
 		86B48AF81D5A41C900063E2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86B48AEB1D5A41C900063E2B /* SwiftMessages */;
+			target = 86B48AEB1D5A41C900063E2B /* TBSwiftMessages */;
 			targetProxy = 86B48AF71D5A41C900063E2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -667,6 +667,7 @@
 		86B48AFE1D5A41C900063E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -694,6 +695,7 @@
 		86B48AFF1D5A41C900063E2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -753,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86B48AFD1D5A41C900063E2B /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
+		86B48AFD1D5A41C900063E2B /* Build configuration list for PBXNativeTarget "TBSwiftMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86B48AFE1D5A41C900063E2B /* Debug */,
